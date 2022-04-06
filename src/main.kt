@@ -1,6 +1,6 @@
 fun main(){
     Odd()
-    var names= Name(arrayOf("Khloe","Mary","Wanda","Wairimu","Robert","Wanjiru"))
+    var names= Name(arrayOf("Khloeeh","Mary","Wanda","Wairimu","Robert","Wanjiru"))
     println(names)
     TheDrink(4)
     numbers()
@@ -15,8 +15,8 @@ fun Odd(){
 }
 fun Name(names:Array<String>):Int {
     var name= 0
-    names.forEach { detail->
-        if (detail.length >5){
+    names.forEach { state->
+        if (state.length >5){
             name++
         }
     }
