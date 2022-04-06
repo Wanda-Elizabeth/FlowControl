@@ -3,7 +3,7 @@ fun main(){
     var names= Name(arrayOf("Khloeeh","Mary","Wanda","Wairimu","Robert","Wanjiru"))
     println(names)
     robotserve(5)
-    robotserve(14)
+    robotserve(13)
     robotserve(17)
 
 
