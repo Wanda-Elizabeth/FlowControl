@@ -2,7 +2,11 @@ fun main(){
     Odd()
     var names= Name(arrayOf("Khloeeh","Mary","Wanda","Wairimu","Robert","Wanjiru"))
     println(names)
-    TheDrink(4)
+    robotserve(5)
+    robotserve(14)
+    robotserve(17)
+
+
     numbers()
 
 
@@ -22,35 +26,36 @@ fun Name(names:Array<String>):Int {
     }
     return name
 }
-fun TheDrink(age:Int){
+fun robotserve(age:Int){
 
     if ( age<6){
-        println("Takes a glass of Milk")
+        println("Takes a bottle of  glass of Milk")
     }
     else if (age>6 && age <15){
-        println("Takes Fanta orange")
+        println("Takes a bottle of Fanta orange")
     }
     else{
-        println("Takes a coke bottle")
+        println("Takes a  bottle of coke ")
     }
 }
 fun numbers() {
-    for (number in 1..100)
+    var number=0
+    for (number in 0..100){
         if ((number%3)==0){
             println("Fizz")
         }
         else if ((number%5)==0){
             println("Buzz")
+             }
         }
-        else {
+
             if (number%3==0 && number%5==0){
                 println("Fizz Buzz")
             }
-            else {
-                println(number)
+
             }
-        }
-}
+
+
 
 
 
